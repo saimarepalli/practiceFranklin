@@ -30,13 +30,14 @@ export default function decorate(block) {
 document.getElementsByClassName('tabs')[0].addEventListener('click', (event)=>{
     var id = event.target.id;
     var elem = event.target.classList.value;
+    if(elem == 'tablinks') {
     var tablinksList = document.getElementsByClassName('tablinks');
     for(var j = 0; j<tablinksList.length; j++) {
        var item =  tablinksList[j];
        item.style.background="#035fe6";
     }
     event.target.style.background="orange";
-    if(elem == 'tablinks') {
+    
         var tabcontent = document.getElementsByClassName('tabs')[0].children;
         for (var i = 1; i < tabcontent.length; i++) {
         if(i==id) {
