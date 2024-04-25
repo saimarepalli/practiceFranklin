@@ -22,7 +22,7 @@ export default function decorate(block) {
              }
         });
      });
-
+     document.getElementsByClassName('form')[0].setAttribute('align','center');
      document.getElementById('submit').addEventListener('click', ()=>{
         var firstName = document.getElementById("in-FirstName").value;
         var email= document.getElementById("in-Emailid").value;
