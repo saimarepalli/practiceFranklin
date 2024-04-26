@@ -12,8 +12,8 @@
   
   .slider {
     width: 100%;
-    max-width: 960px;
-    height: 450px;
+    max-width: 1200px;
+    height: 500px;
     position: relative;
     overflow: hidden; 
     border-radius: 15px;
@@ -22,7 +22,7 @@
   
   .slide {
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     height: 350px;
     position: absolute;
     transition: all 0.5s;
@@ -31,9 +31,12 @@
   div.slide-text{
     position: absolute;
     width: 100%;
-    top:60%;
+    top: 100%;
+    right: 20%;
     color: #fff;
     text-align: center;
+    font-size: xxx-large;
+    color: cadetblue;
   }
   
   .btn {
@@ -53,12 +56,12 @@
     *transform: scale(1.1);
   } */
   .btn-prev {
-    top: 45%;
+    top: 42%;
     left: 2%;
   }
   
   .btn-next {
-    top: 45%;
+    top: 42%;
     right: 2%;
   }
   #carousel-block, #tabs-block, #forms-block, #assets-block {
