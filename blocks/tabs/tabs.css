@@ -1,0 +1,14 @@
+.tabscontent {
+    width: 100%;
+    max-width: 960px;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 30px;
+}
+.tablinks {
+    border-radius: 5px;
+    width: 25%;
+}

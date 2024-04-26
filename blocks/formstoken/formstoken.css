@@ -1,0 +1,14 @@
+.input {
+    height: 30px;
+    width: 25%;
+    text-align: center;
+}
+.formstoken-wrapper {
+    background: lightblue;
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+.showMessage {
+    color: green;
+    font-size: medium;
+}
