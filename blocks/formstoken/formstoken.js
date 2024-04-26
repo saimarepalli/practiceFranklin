@@ -27,16 +27,21 @@ export default function decorate(block) {
                  outDiv.appendChild(input)
                  col.replaceWith(outDiv);
              } else if (i==0 && r==rows.length-1) {
+                const lastDiv = document.createElement('div');
                 const submitButton = document.createElement('button');
                 submitButton.classList.add('submitbtn');
                 submitButton.setAttribute("id", 'submit');
                 const node = document.createTextNode(col.innerHTML);
+                const msg = document.createElement('div');
+                msg.classList.add('showMessage');
                 submitButton.append(node);
-                col.replaceWith(submitButton);
+                lastDiv.appendChild(submitButton);
+                lastDiv.appendChild(msg);
+                col.replaceWith(lastDiv);
              }
-             if(i==1 && r==rows.length-1) {
-                col.classList.add("showMessage");
-             }
+            //  if(i==1 && r==rows.length-1) {
+            //     col.classList.add("showMessage");
+            //  }
         });
      });
      
