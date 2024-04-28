@@ -1,0 +1,88 @@
+.input {
+    height: 30px;
+    width: 25%;
+    text-align: center;
+}
+.formsdynamic-wrapper {
+    background: lightblue;
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+}
+.showMessage {
+    color: green;
+    font-size: medium;
+}
+.inputField {
+    display: flex;
+}
+
+
+.formsdynamic-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .formsdynamic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .inputFieldName {
+    /* margin-bottom: 10px; */
+    width: 100%;
+  }
+  
+  .input {
+    width: 404px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .submitbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 2x;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .submitbtn:hover {
+    background-color: #45a049;
+  }
+  
+  .showMessage {
+    font-size: 16px;
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .default-content-wrapper {
+    text-align: center;
+  }
+
+  #in-Emailid{
+    margin-right: -35px;
+  }
